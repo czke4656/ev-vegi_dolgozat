@@ -1,0 +1,57 @@
+body {
+    background-color: ghostwhite;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    background-color: ghostwhite;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 200px;
+    border-color: crimson;
+    text-align: center;
+}
+a:link {
+    color: crimson;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+a:hover {
+    color: crimson;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    max-width: 900px;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section {
+    margin: 10pt;
+}
+image {
+    width: 100px;
+}
+.szoveg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px){ 
+  body {
+    font-size: 110%;
+}
+.szoveg{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+}
